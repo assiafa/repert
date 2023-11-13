@@ -1,0 +1,89 @@
+/* Votre CSS ici */
+
+/* Par exemple : */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #09796fe1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+img:hover{
+     
+        transform: scale(2.2); /* Enlarge the image by 20% on hover */
+      
+}
+header h1{
+    font-size: 40px;
+}
+header p{
+    font-size: 30px;
+}
+        
+#inffo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150PX;
+
+}
+
+#info{
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+/* Ajoutez d'autres styles personnalisés selon vos préférences. */
+#div1 img{
+    width: 150px;
+    height: 100px;
+}
+
+#Grand{display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 50px;}
+
+#div1{
+    margin-left: 50px;
+}
+h2{
+    color: rgb(53, 118, 120);
+    font-size: 30px;
+}
+#Grand span{
+    color: rgb(101, 99, 99);
+}
+@media only screen and (max-width: 700px) {
+   
+  }
+  
